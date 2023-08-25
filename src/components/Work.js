@@ -99,7 +99,7 @@ export default class Work extends Component {
             <div>
                 <Container text textAlign="justified">
                     <Header as="h1">Featured Work</Header>
-                    <a href="https://blog.kmmanoj.me">All work</a>
+                    <a href="https://kmmanoj.hashnode.dev">All work</a>
                 </Container>
                 {this.state.content}
             </div>
