@@ -1,6 +1,8 @@
 from brownie import network, accounts
 
 account = None
+experiences_contract_addr = "0xBf4d7C4D0B6F66310A911DE778d9AE535862201c";
+featuredWorks_contract_addr = "0x749350fcC91e46ceB9C716F2B72A2AB50c32Fdd6";
 
 def use_sepolia_net():
     if network.show_active() != 'sepolia':
